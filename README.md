@@ -15,8 +15,8 @@ configuration, see https://github.com/GoogleContainerTools/jib/tree/master/jib-g
 
 ### run
 
-    docker run -d --rm -p 8080:8080 --name springboot-jib-helloworld springboot-jib-helloworld
-
+`    docker run -d --rm -p 8080:8080 --name springboot-jib-helloworld springboot-jib-helloworld
+`
 ### example
 
 https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin#example
