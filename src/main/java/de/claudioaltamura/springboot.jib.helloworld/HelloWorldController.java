@@ -12,4 +12,6 @@ public class HelloWorldController {
 		return "Hello World!";
 	}
 
+	@GetMapping(value = {"/health"})
+	public String health() { return "OK"; }
 }
