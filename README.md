@@ -4,6 +4,7 @@ helloworld example with spring boot and jib
 ### build with jibDockerBuild
 To build to a Docker daemon, use:
 
+    ./gradlew clean
     ./gradlew jibDockerBuild
 
 ### build with jib
