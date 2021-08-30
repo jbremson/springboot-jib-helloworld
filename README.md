@@ -1,4 +1,4 @@
-# springboot-jib-helloworld
+# springboot-jib-helloworld+helm
 helloworld example with spring boot and jib
 
 ### build with jibDockerBuild
