@@ -22,6 +22,15 @@ configuration, see https://github.com/GoogleContainerTools/jib/tree/master/jib-g
 
 https://github.com/GoogleContainerTools/jib/tree/master/jib-gradle-plugin#example
 
+### helm build w/ kind
+1) `kind create cluster` (if not existent)
+2) `./gradlew clean`
+3) `./gradlew jibDockerBuild`
+4) `docker tag springboot-jib-helloworld <container repo>/springboot-jib-helloworld`
+5) `docker push <container repo>/springboot-jib-helloworld:latest`
+6) Set hellojib/values.yaml to point at above container location. 
+7) 
+    `
 ### see
 [jib](https://github.com/GoogleContainerTools/jib)
 
